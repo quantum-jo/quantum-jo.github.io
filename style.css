@@ -27,7 +27,14 @@ a:hover{
 }        
 
 .parallax{
-    background: url('img/pic1.jpg') no-repeat center; 
+    background: url('pic1.jpg') no-repeat center; 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+} 
+
+.parallax2{
+    background: url('pic2.jpg') no-repeat center; 
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
