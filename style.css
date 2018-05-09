@@ -1,19 +1,37 @@
-    	body{
+body{
 	background: #efefef;
 	font-family: arial;
         }
 
-        h1{
+h1{
 	font-size: 20px;
         }
 
-        a{
+a{
 	color: #000000;
 	text-decoration: underline;
          }
 
-        a:hover{
+a:hover{
     color: #000000;
     text-decoration: none;
          }
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    font-size: 24px;
+    font-family: arial;
+    padding: 25px;
+}        
+
+.parallax{
+    background: url('img/pic1.jpg') no-repeat center; 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+} 
+
+
     
